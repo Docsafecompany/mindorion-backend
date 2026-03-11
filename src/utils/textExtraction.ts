@@ -1,4 +1,4 @@
-—/**
+/**
  * Text extraction utilities for document content analysis
  */
 
