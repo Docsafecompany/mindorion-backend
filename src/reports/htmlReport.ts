@@ -1,4 +1,4 @@
-export function generateHtmlReport(report: any, fileName: string): string {
+——export function generateHtmlReport(report: any, fileName: string): string {
   const date = new Date().toLocaleString();
   const operations = (report.operations || []).map((op: string) =>
     '<li>' + escapeHtml(op) + '</li>'
